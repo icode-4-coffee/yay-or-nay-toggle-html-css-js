@@ -1,0 +1,65 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.toggle {
+    position: relative;
+    height: 35px;
+    width: 80px;
+    border-radius:30px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.nay-toggle {
+    background-color: #fef2f2;
+    border: 2px solid #fca5a5;
+}
+
+.yay-toggle {
+    background-color: #f0fdf4;
+    border: 2px solid #86efac;
+}
+
+.icon-container {
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nay-icon-container {
+    position: absolute;
+    border: 3px solid #fca5a5;
+    background-color: #fecaca;
+    left: -5px;
+}
+
+.yay-icon-container {
+    position: absolute;
+    border: 3px solid #86efac;
+    background-color: #bbf7d0;
+    right: -5px;
+}
+
+.icon {
+    height: 30px;
+    width: 30px;
+}
+
+.nay-icon {
+    color: #dc2626;
+}
+
+.yay-icon {
+    color: #16a34a;
+}
+
+.hide {
+    display: none;
+}
